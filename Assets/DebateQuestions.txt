@@ -1,0 +1,90 @@
+How would you address the growing income inequality in the country?;E
+What steps would you take to ensure affordable and accessible healthcare for all citizens?;E
+How do you plan to tackle climate change while balancing economic growth?;E
+What is your strategy for improving the quality of public education?;E
+How would you reform the criminal justice system to reduce systemic biases?;L
+What measures will you implement to support small businesses and entrepreneurship?;E
+How do you intend to handle the national debt and fiscal responsibility?;E
+What policies would you propose to strengthen national security without compromising civil liberties?;L
+How would you address the housing crisis and ensure affordable housing for all?;E
+What are your plans for reforming the immigration system?;L
+How would you support and expand renewable energy sources?;E
+What steps would you take to improve the mental health care system in the country?;O
+How do you plan to ensure fair and secure elections?;L
+What is your approach to handling international relations and foreign policy?;W
+How would you protect and enhance workers' rights and labor conditions?;E
+What initiatives would you introduce to reduce student loan debt and make higher education more affordable?;E
+How do you plan to address and reduce gun violence in the country?;L
+What measures will you take to improve the country's infrastructure?;E
+How would you promote racial and gender equality in both the workplace and society at large?;O
+What policies would you implement to ensure a fair and livable minimum wage?;E
+How would you address the opioid crisis and improve addiction treatment programs?;E
+What is your plan to ensure internet privacy and protect citizens' digital rights?;L
+How do you intend to support veterans and improve the services available to them?;E
+What steps will you take to protect endangered species and biodiversity?;L
+How do you plan to balance agricultural needs with environmental sustainability?;E
+What measures would you implement to combat human trafficking?;L
+How do you intend to handle trade relations and ensure fair trade practices?;E
+What is your strategy for addressing homelessness and supporting the homeless population?;E
+How would you improve the quality and accessibility of public transportation?;E
+What are your plans for advancing space exploration and research?;E
+How would you address the issue of police brutality and ensure accountability in law enforcement?;L
+What measures will you take to promote scientific research and technological innovation?;E
+How do you plan to improve child care and early childhood education?;E
+What is your approach to ensuring food security and addressing hunger?;E
+How would you address water scarcity and promote water conservation?;E
+What steps would you take to protect and preserve public lands and national parks?;L
+How do you plan to address systemic racism in the healthcare system?;O
+What measures would you take to improve disaster preparedness and response?;L
+How would you support and protect LGBTQ+ rights?;L
+What is your plan to ensure fair taxation and address tax loopholes?;E
+How do you intend to promote arts, culture, and the humanities?;O
+What steps will you take to combat misinformation and promote media literacy?;L
+How would you address the challenges faced by rural communities and promote rural development?;E
+What measures would you implement to support mental health in schools?;O
+How do you plan to address the needs of the aging population and improve senior care?;E
+What steps will you take to reduce plastic pollution and promote recycling?;E
+How would you ensure that technological advancements benefit society as a whole?;E
+What is your strategy for addressing cyber threats and improving cybersecurity?;W
+How do you plan to support scientific education and STEM initiatives?;E
+What measures will you take to protect consumer rights and ensure product safety?;E
+How would you address the challenges of urbanization and support sustainable city planning?;E
+What steps will you take to ensure equitable access to clean energy?;E
+How do you plan to support the gig economy and protect gig workers' rights?;E
+What measures would you implement to improve the transparency and accountability of government?;L
+How do you plan to support and advance gender equality in the workplace?;E
+What steps will you take to address and prevent domestic violence?;L
+How would you support and promote volunteerism and community service?;O
+What is your plan to address the digital divide and ensure access to technology for all?;E
+How do you intend to support indigenous communities and protect their rights?;L
+What measures will you take to promote sustainable agriculture and reduce food waste?;E
+How can we believe your promises when you've broken so many in the past?;P
+Why should we trust you when your actions have repeatedly shown otherwise?;P
+How do you justify your behavior when you've been caught in numerous scandals?;P
+Why haven't you taken responsibility for your numerous failures?;P
+How can you expect to lead the country when your own personal life is in disarray?;P
+Why do you keep changing your stance on critical issues for political gain?;P
+How do you respond to accusations of corruption and dishonesty?;P
+Why should voters believe you have their best interests at heart when you've been accused of self-serving behavior?;P
+How can we trust your leadership when you've shown a lack of integrity?;P
+Why should anyone believe your promises when you have a history of broken commitments?;P
+What is your plan to address the ongoing conflict in the Middle East?;W
+How do you intend to strengthen alliances with NATO partners?;W
+What steps will you take to ensure stability in the South China Sea?;W
+How will you handle the rising tensions between the U.S. and Russia?;W
+What is your strategy for dealing with North Korea's nuclear program?;W
+How do you plan to support global human rights initiatives?;W
+What measures will you implement to combat international terrorism?;W
+How do you intend to handle the refugee crisis stemming from war-torn regions?;W
+What is your approach to U.S. involvement in the United Nations?;W
+How will you manage the relationship with Iran following recent conflicts?;W
+What steps will you take to promote democracy and stability in developing countries?;W
+How do you plan to address the global arms trade and reduce proliferation?;W
+What is your policy on military interventions in foreign countries?;W
+How will you ensure that foreign aid is used effectively to promote peace and development?;W
+What are your plans for cybersecurity cooperation with international partners?;W
+What measures will you take to ensure the protection of whistleblowers and their rights?;L
+How do you plan to address the issue of mass incarceration and prison overcrowding?;L
+What steps will you take to reform civil asset forfeiture laws to prevent abuse?;L
+How do you intend to strengthen protections against hate crimes and ensure justice for victims?;L
+What is your plan to improve the public defender system and ensure fair legal representation for all citizens?;L
