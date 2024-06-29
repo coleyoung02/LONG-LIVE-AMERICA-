@@ -11,6 +11,8 @@ public class QuestionManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI tm;
     [SerializeField] private float charLength;
     [SerializeField] private float questionResponseTime;
+    [SerializeField] private AudioSource typeSFX;
+    [SerializeField] private AudioSource dingSFX;
     private string activeQuestionText;
     private string activeQuestionCategory;
     private bool respondable;
@@ -18,6 +20,8 @@ public class QuestionManager : MonoBehaviour
     private int questionIndex;
     private float charClock;
     private float questionClock;
+
+  
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +42,10 @@ public class QuestionManager : MonoBehaviour
             {
                 respondable = true;
                 questionClock = questionResponseTime;
+                typeSFX.Stop();
+               
+                dingSFX.Play();
+
             }
         }
         else
@@ -63,6 +71,7 @@ public class QuestionManager : MonoBehaviour
             expectedLength = charLength * activeQuestionText.Length;
             charClock = 0f;
             respondable = false;
+            typeSFX.Play();
         }
         else
         {
