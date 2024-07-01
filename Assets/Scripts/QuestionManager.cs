@@ -13,6 +13,7 @@ public class QuestionManager : MonoBehaviour
     [SerializeField] private float questionResponseTime;
     [SerializeField] private AudioSource typeSFX;
     [SerializeField] private AudioSource dingSFX;
+    [SerializeField] private int questionsRemaining;
     private string activeQuestionText;
     private string activeQuestionCategory;
     private bool respondable;
@@ -63,6 +64,15 @@ public class QuestionManager : MonoBehaviour
 
     private void PopulateNextQuestion()
     {
+        questionsRemaining--;
+        if (questionsRemaining < 0)
+        {
+
+        }
+
+        {
+            
+        }
         if (questionIndex < questions.Count)
         {
             activeQuestionText = questions[questionIndex].message;
