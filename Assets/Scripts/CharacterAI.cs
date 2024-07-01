@@ -31,6 +31,10 @@ public class CharacterAI : CharacterManager
             if (responseClock <= 0)
             {
                 MessageSO response = messages[Random.Range(0, messages.Count)];
+                if (response.category.Equals(qm.GetActiveCategory()))
+                {
+                    response = messages[Random.Range(0, messages.Count)];
+                }
                 TryMessage(response);
                 ResetResponseClock();
             }

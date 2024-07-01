@@ -627,8 +627,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4c8ba821b2940fc409ed86980efa3bf9, type: 2}
   - {fileID: 11400000, guid: 5dfbbd24220c39842b43edb5ca3c1479, type: 2}
   - {fileID: 11400000, guid: 3654cdd5f9ea22441ae69c771e77f438, type: 2}
-  responseDelay: 0.3
-  responseDelayVariance: 0.1
+  responseDelay: 0.65
+  responseDelayVariance: 0.15
 --- !u!1 &36683310444353482
 GameObject:
   m_ObjectHideFlags: 0
@@ -854,6 +854,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4967595379142382036, guid: 5ff846f4342e3454bb2f33ddfaa01bf5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 71493ce8db0b9ac49953b9ce15c8176e, type: 2}
+    - target: {fileID: 4967595379142382036, guid: 5ff846f4342e3454bb2f33ddfaa01bf5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -1286731855643204789, guid: 71493ce8db0b9ac49953b9ce15c8176e, type: 2}
+    - target: {fileID: 4967595379142382036, guid: 5ff846f4342e3454bb2f33ddfaa01bf5, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6204708748253510699, guid: 5ff846f4342e3454bb2f33ddfaa01bf5, type: 3}
       propertyPath: questionsRemaining
       value: 10
