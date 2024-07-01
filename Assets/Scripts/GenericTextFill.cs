@@ -15,7 +15,6 @@ public class GenericTextFill : MonoBehaviour
     [SerializeField] private AudioSource typeSFX;
     [SerializeField] private AudioSource dingSFX;
     private float expectedLength;
-    private int questionIndex;
     private float charClock;
     private float questionClock;
     private bool doneTyping;
@@ -25,7 +24,6 @@ public class GenericTextFill : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        questionIndex = 0;
         doneTyping = false;
         PopulateNextQuestion();
     }
