@@ -9,8 +9,8 @@ public class CustomButtonHover : MonoBehaviour, IPointerEnterHandler, IPointerEx
 {
     private bool hovered = false;
     private float scale = 1f;
-    private float maxScale = 1.05f;
-    private float changeRate = .4f;
+    private float maxScale = 1.08f;
+    private float changeRate = .65f;
     private RectTransform rt;
 
     void Awake()
