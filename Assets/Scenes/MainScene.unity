@@ -336,7 +336,7 @@ MonoBehaviour:
   scaleChange: 1.05
   spawnPoint: {fileID: 6269521783337905058}
   positionVariance: 1
-  shrinkConstant: 0.05
+  shrinkConstant: 0.1
   maxScale: 2.5
   minScale: 0.6
 --- !u!1 &1280880059
@@ -553,7 +553,7 @@ MonoBehaviour:
   scaleChange: 1.05
   spawnPoint: {fileID: 526974406569019330}
   positionVariance: 1
-  shrinkConstant: 0.05
+  shrinkConstant: 0.1
   maxScale: 2.5
   minScale: 0.6
   messages:

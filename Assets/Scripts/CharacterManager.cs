@@ -35,6 +35,10 @@ public class CharacterManager : MonoBehaviour
         GameObject newbubble = Instantiate(failurePrefab, spawnPoint.position, Quaternion.identity);
         Vector3 changeVector = new Vector3(Random.Range(-positionVariance, positionVariance), Random.Range(-positionVariance, positionVariance), 0);
         newbubble.transform.position += changeVector;
+        if (head.transform.localScale.x < minScale)
+        {
+            head.transform.localScale = new Vector3(minScale, minScale, head.transform.localScale.z);
+        }
     }
 
     private void Update()
