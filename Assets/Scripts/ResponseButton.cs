@@ -13,8 +13,10 @@ public class ResponseButton : MonoBehaviour
 
     public void OnPress()
     {
-        rm.TryCategory(category);
-        PlayRandomSFX();
+        if (rm.TryCategory(category))
+        {
+            PlayRandomSFX();
+        }
     }
 
     public void SetMessage(MessageSO m)

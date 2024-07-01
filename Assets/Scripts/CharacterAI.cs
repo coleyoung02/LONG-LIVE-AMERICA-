@@ -7,7 +7,6 @@ public class CharacterAI : CharacterManager
     [SerializeField] private List<MessageSO> messages;
     [SerializeField] private float responseDelay;
     [SerializeField] private float responseDelayVariance;
-    private QuestionManager qm;
     private float responseClock;
 
 

@@ -29,11 +29,11 @@ public class ResponseManager : MonoBehaviour
         }
     }
 
-    public void TryCategory(string c)
+    public bool TryCategory(string c)
     {
         if (!qm.PlayerCanRespond())
         {
-            return;
+            return false;
         }
         else
         {
@@ -47,5 +47,6 @@ public class ResponseManager : MonoBehaviour
                 cm.OnSuccess("");
             }
         }
+        return true;
     }
 }

@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class CharacterManager : MonoBehaviour
 {
-    [SerializeField] GameObject successPrefab;
-    [SerializeField] GameObject failurePrefab;
-    [SerializeField] Transform head;
-    [SerializeField] float scaleChange;
-    [SerializeField] Transform spawnPoint;
-    [SerializeField] float positionVariance;
-    [SerializeField] float shrinkConstant;
-    [SerializeField] float maxScale;
-    [SerializeField] float minScale;
-    private QuestionManager qm;
+    [SerializeField] private GameObject successPrefab;
+    [SerializeField] private GameObject failurePrefab;
+    [SerializeField] private Transform head;
+    [SerializeField] private float scaleChange;
+    [SerializeField] private Transform spawnPoint;
+    [SerializeField] private float positionVariance;
+    [SerializeField] private float shrinkConstant;
+    [SerializeField] private float maxScale;
+    [SerializeField] private float minScale;
+    protected QuestionManager qm;
+
     protected virtual void Start()
     {
         qm = FindAnyObjectByType<QuestionManager>();
