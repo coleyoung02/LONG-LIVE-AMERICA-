@@ -40,18 +40,12 @@ public class ResponseManager : MonoBehaviour
             ResetButtons();
             if (qm.GetActiveCategory().Equals(c))
             {
-
+                cm.OnFail("");
+            }
+            else
+            {
+                cm.OnSuccess("");
             }
         }
-    }
-
-    private void OnSuccess()
-    {
-
-    }
-
-    private void OnFail()
-    {
-
     }
 }

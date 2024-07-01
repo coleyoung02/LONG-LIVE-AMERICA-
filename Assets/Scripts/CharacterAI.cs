@@ -42,11 +42,11 @@ public class CharacterAI : CharacterManager
     {
         if (m.category.Equals(qm.GetActiveCategory()))
         {
-            OnSuccess(m.message);
+            OnFail(m.message);
         }
         else
         {
-            OnFail(m.message);
+            OnSuccess(m.message);
         }
     }
 }
