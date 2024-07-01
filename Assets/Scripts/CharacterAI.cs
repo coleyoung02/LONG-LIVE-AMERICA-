@@ -20,7 +20,7 @@ public class CharacterAI : CharacterManager
 
     private void ResetResponseClock()
     {
-        responseClock = responseClock + UnityEngine.Random.Range(-responseDelayVariance / 2f, responseDelayVariance / 2f);
+        responseClock = responseDelay + UnityEngine.Random.Range(-responseDelayVariance / 2f, responseDelayVariance / 2f);
     }
 
     private void Update()
