@@ -31,7 +31,7 @@ public class CharacterManager : MonoBehaviour
 
     public void OnFail(string content)
     {
-        head.localScale = head.localScale / scaleChange;
+        head.localScale = head.localScale / (scaleChange+0.2f);
         GameObject newbubble = Instantiate(failurePrefab, spawnPoint.position, Quaternion.identity);
         Vector3 changeVector = new Vector3(Random.Range(-positionVariance, positionVariance), Random.Range(-positionVariance, positionVariance), 0);
         newbubble.transform.position += changeVector;

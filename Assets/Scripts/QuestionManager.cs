@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class QuestionManager : MonoBehaviour
 {
@@ -67,7 +68,7 @@ public class QuestionManager : MonoBehaviour
         questionsRemaining--;
         if (questionsRemaining < 0)
         {
-
+            SceneManager.LoadScene("EndScene");
         }
 
         {
